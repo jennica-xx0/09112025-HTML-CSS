@@ -1,0 +1,19 @@
+body{
+    background-color:#fffaf0;
+}
+
+#p1{
+    color:indianred;
+}
+
+#p2{
+    color:olive;
+}
+
+#p3{
+    color:hwb(44 19% 17%)
+}
+
+#p4{
+     color:#191970;
+}
