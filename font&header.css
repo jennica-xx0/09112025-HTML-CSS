@@ -1,0 +1,17 @@
+h1{
+    font-family: verdana, arial;
+    border: 3px solid rgb(107, 65, 155);
+    border-radius:15px;
+}
+
+p{
+    font-family:'Lucida Sans Unicode', 'courier new';
+    font-size: 1.2em;
+    font-weight: normal;
+    font-style:italic;
+    border-bottom: 3px solid rgb(204, 75, 75);
+    border-top: 3px solid rgb(5, 97, 66);
+    border-left:3px dotted rgb(211, 9, 127);
+    border-right:3px dotted rgb(10, 82, 236);
+    border-radius: 10px;
+}
