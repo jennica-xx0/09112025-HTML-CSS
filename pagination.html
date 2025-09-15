@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+    <style>
+        .pagination{
+            text-align:center;
+        }
+
+        .pagination a{
+            color:black;
+            text-decoration: none;
+            padding:8px 16px;
+            display: inline-block;
+        }
+
+        .pagination a.active{
+            background-color: rgb(171, 171, 186);
+            font-weight: bold;
+            border-radius:5px;
+        }
+
+        .pagination a:hover:not(.active){
+            background-color: hsl(240, 1%, 66%);
+            color:white;
+            border-radius:5px;
+        }
+    </style>
+
+<body>
+    <h1>This is page #1</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium ipsa quod neque a, quia asperiores animi ipsum aliquid maxime debitis sunt numquam culpa molestiae, voluptatibus aspernatur ratione quis cumque omnis.</p>
+
+    <div class="pagination">
+        <a href="pseudo-element.html"><</a>
+        <a href="pseudo-element.html" class="active">1</a>
+        <a href="overflow.html">2</a>
+        <a href="margins.html">3</a>
+        <a href="shadow.html">4</a>
+        <a href="form.html">5</a>
+        <a href="position.html">6</a>
+        <a href="">> </a> 
+
+    </div>
+
+
+</body>
+</html>

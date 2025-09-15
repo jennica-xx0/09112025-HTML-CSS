@@ -27,9 +27,19 @@
         li:not(:hover){
            background-color:rgb(167, 167, 250);
         }
+
+        #greeting p{
+            background-color: hsl(154, 53%, 47%);
+            padding:10px;
+            display: none;
+        }
+
+        #greeting:hover p{
+            display: block;
+        }
     </style>
 
-<body>
+<body> 
     <a href="https://google.com">Google</a>
 
     <ul>
@@ -45,6 +55,10 @@
         <li>This is #10</li>
     </ul>
 
+    <div id="greeting">Hover here
+        <p>Hello World!</p>    
+    </div>
 
 </body>
 </html>
+      

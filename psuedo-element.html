@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+    <style>
+        h1::first-letter{
+            font-size: 2em;
+            font-style: italic;
+        }
+
+        p::first-line{
+            background-color: hsl(60, 69%, 70%);
+        }
+
+        p::selection{
+             color:white;
+             background-color: rgb(150, 148, 148);
+        }
+
+        #fruits li::before{
+            content:"✔️";
+        }
+
+        #apple::after{
+            content:"🍎";
+        }
+
+        #orange::after{
+            content:"🍊";
+        }
+
+        #grapes::after{
+            content:"🍇";
+        }  
+        
+        #fruits li::marker{
+            conten:"✔️";
+            color:hsl(240, 100%, 50%);
+            font-size: 1.5em;
+        }
+    </style>
+
+<body>
+    <h1>This is psuedo-element</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium, tempora dolorem velit, voluptates voluptatum dolores, consequuntur dolor enim animi culpa quidem consectetur molestiae tempore aliquam explicabo doloremque quae at minima?</p>
+
+    <ul id="fruits">
+        <li>apple</li>
+        <li>orange</li>
+        <li>grapes </li>
+</body>
+</html>
